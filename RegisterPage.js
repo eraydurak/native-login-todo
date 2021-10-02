@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TouchableHighlight, Image, TextInput, SafeAreaView } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -35,12 +35,12 @@ const RegisterPage = ({ navigation }) => {
           placeholder="Please Enter Your Full Name"
         />
       </SafeAreaView>
-      <Text onPress={() => navigation.navigate('Deneme', { name: text })} style={styles.startBtn}>
+      <Text style={styles.startBtn}>
         Register
       </Text>
       <Text style={styles.alreadyHaveAccount}>
         Already Have Account ?
-        <Text style={styles.span}>
+        <Text onPress={() => navigation.navigate('Deneme')} style={styles.span}>
           Sign In
         </Text>
       </Text>
