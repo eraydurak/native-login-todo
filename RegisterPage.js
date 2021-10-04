@@ -93,13 +93,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 65,
-    cursor: 'pointer',
   },
   alreadyHaveAccount: {
     marginTop: 20,
     fontSize: 14,
     fontWeight: 'bold',
-    cursor: 'pointer',
   },
   span: {
     color: '#24D0C6',

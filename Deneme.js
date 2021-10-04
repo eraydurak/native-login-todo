@@ -86,7 +86,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 35,
-    cursor: 'pointer',
   },
   inputs: {
     display: 'flex',
@@ -106,14 +105,14 @@ const styles = StyleSheet.create({
   bigHeader: {
     color: '#000000',
     fontSize: 18,
-    fontWeight: 700,
+    fontWeight: '700',
     alignContent: 'center',
     marginBottom: 25,
   },
   forgotPassword: {
     color: '#24D0C6',
     fontSize: 16,
-    fontWeight: 500,
+    fontWeight: '500',
     textAlign: 'center',
     marginTop: 10
   }

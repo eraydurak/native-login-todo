@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
   landingPageImage: {
     width: 180,
     height: 168,
-    marginTop: 220,
+    marginTop: 20,
     marginBottom: 91,
   },
   headers: {
@@ -75,15 +75,16 @@ const styles = StyleSheet.create({
   bigHeader: {
     color: '#000000',
     fontSize: 18,
-    fontWeight: 700,
-    alignContent: 'center',
+    fontWeight: '700',
+    alignSelf: 'center',
     marginBottom: 25,
   },
   smallParaghraphs: {
     color: '#000000',
     fontSize: 14,
-    fontWeight: 500,
+    fontWeight: '500',
     paddingHorizontal: 50,
+    alignItems:'center'
   },
   startBtn: {
     color: '#ffffff',
@@ -97,7 +98,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 65,
-    cursor: 'pointer',
   }
 });
 
